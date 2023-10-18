@@ -1,0 +1,13 @@
+[package]
+name = "imatree"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.75"
+clap = { version = "4.4.6", features = ["derive"] }
+image = "0.24.6"
+num-complex = "0.4.3"
+text-to-png = "0.2.0"
